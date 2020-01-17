@@ -1,0 +1,26 @@
+{
+  "name": "Lactopus-Assistant",
+  "version": "0.7.4",
+  "description": "Bot Lactopus untuk Line Messenger",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "@line/bot-sdk": "^6.8.4"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/DarkArk404/Lactopus"
+  },
+  "license": "MIT",
+  "keywords": [
+    "werewolf",
+    "line",
+    "chatbot",
+    "messenger"
+  ]
+}

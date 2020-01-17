@@ -1,0 +1,139 @@
+{
+  "groupId": "C95dfaa5c52073f2823535e43660b9dcd",
+  "state": "idle",
+  "time_default": 60,
+  "players": [
+    {
+      "id": "U57e0810b253944dc7de91768d4b5bec8",
+      "name": "Sandra",
+      "state": "active",
+      "groupId": "C95dfaa5c52073f2823535e43660b9dcd",
+      "role": {
+        "name": "villager",
+        "description": "🧑‍🌾 Kamu adalah warga (luar)biasa, tugasmu itu cari tau siapa werewolf, dan gantungkan werewolfnya",
+        "team": "villager"
+      },
+      "status": "death",
+      "voting": "done",
+      "skill": "pending",
+      "message": "",
+      "attacked": false,
+      "healed": false,
+      "targetIndex": -1,
+      "targetVoteName": "Padel",
+      "afkCounter": 0,
+      "visitors": [],
+      "blocked": false,
+      "culted": false
+    },
+    {
+      "id": "U7311dac4dde712fc0cf2ec11297c6e15",
+      "name": "Padel",
+      "state": "active",
+      "groupId": "C95dfaa5c52073f2823535e43660b9dcd",
+      "role": {
+        "name": "villager",
+        "description": "🧑‍🌾 Kamu adalah warga (luar)biasa, tugasmu itu cari tau siapa werewolf, dan gantungkan werewolfnya",
+        "team": "villager"
+      },
+      "status": "alive",
+      "voting": "pending",
+      "skill": "pending",
+      "message": "",
+      "attacked": false,
+      "healed": false,
+      "targetIndex": -1,
+      "targetVoteName": "-",
+      "afkCounter": 0,
+      "visitors": [],
+      "blocked": false,
+      "culted": false
+    },
+    {
+      "id": "U448f6e1403a4661c59a0dd7badd02996",
+      "name": "Resty Rosa Syafitri",
+      "state": "active",
+      "groupId": "C95dfaa5c52073f2823535e43660b9dcd",
+      "role": {
+        "name": "werewolf",
+        "description": "🐺 Kamu adalah penjahat yang menyamar diantara werewolf. Bunuh semua warga supaya kamu menang",
+        "team": "werewolf"
+      },
+      "status": "death",
+      "voting": "pending",
+      "skill": "used",
+      "message": "",
+      "attacked": false,
+      "healed": false,
+      "targetIndex": -1,
+      "targetVoteName": "-",
+      "afkCounter": 5,
+      "visitors": [],
+      "blocked": false,
+      "culted": false
+    },
+    {
+      "id": "U20e133d81a79483568e4403913810f1b",
+      "name": "Mila failasufa",
+      "state": "active",
+      "groupId": "C95dfaa5c52073f2823535e43660b9dcd",
+      "role": {
+        "name": "doctor",
+        "description": "💉 Kamu adalah warga yang bisa menyembuhkan suatu orang pada malam hari, mana tau orang lain butuh bantuan",
+        "team": "villager"
+      },
+      "status": "alive",
+      "voting": "pending",
+      "skill": "used",
+      "message": "👣 Kamu ke rumah Mila failasufa\n\n💡 Mila failasufa tidak diserang semalam\n\n",
+      "attacked": false,
+      "healed": false,
+      "targetIndex": "3",
+      "targetVoteName": "-",
+      "afkCounter": 1,
+      "visitors": [],
+      "blocked": false,
+      "culted": false
+    },
+    {
+      "id": "Ua7c0a55474b26ce2947ee7ee8817dd4f",
+      "name": "rizky putri",
+      "state": "active",
+      "groupId": "C95dfaa5c52073f2823535e43660b9dcd",
+      "role": {
+        "name": "seer",
+        "description": "🔮 Kamu adalah warga yang bisa cek identitas sebenarnya dari suatu orang. Gantung Werewolf supaya kamu menang",
+        "team": "villager"
+      },
+      "status": "alive",
+      "voting": "pending",
+      "skill": "used",
+      "message": "🔮 Role Resty Rosa Syafitri adalah werewolf",
+      "attacked": false,
+      "healed": false,
+      "targetIndex": "2",
+      "targetVoteName": "-",
+      "afkCounter": 2,
+      "visitors": [],
+      "blocked": false,
+      "culted": false
+    }
+  ],
+  "stats": {
+    "gamePlayed": 5
+  },
+  "status": "active",
+  "nightCounter": 3,
+  "roles": [
+    "werewolf",
+    "seer",
+    "doctor"
+  ],
+  "cultistCandidates": [],
+  "lynchCandidate": [
+    0,
+    0,
+    0,
+    1
+  ]
+}

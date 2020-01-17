@@ -1,0 +1,167 @@
+{
+  "groupId": "C334b2c6d0dfe07d9066651b090fbfae5",
+  "state": "idle",
+  "time_default": 75,
+  "players": [
+    {
+      "id": "U0e3b975af029789d6cf1b1ad21a081f2",
+      "name": "Athfal Fr",
+      "state": "active",
+      "groupId": "C334b2c6d0dfe07d9066651b090fbfae5",
+      "role": {
+        "name": "seer",
+        "description": "🔮 Kamu adalah warga yang bisa cek identitas sebenarnya dari suatu orang. Gantung Werewolf supaya kamu menang",
+        "team": "villager"
+      },
+      "status": "alive",
+      "voting": "done",
+      "skill": "used",
+      "message": "🔮 Role r.alya adalah cultist",
+      "attacked": false,
+      "healed": false,
+      "targetIndex": "4",
+      "targetVoteName": "Raphæl",
+      "afkCounter": 0,
+      "visitors": [],
+      "blocked": false,
+      "culted": false
+    },
+    {
+      "id": "U42db6386f24c0fe7f012f5ce5d71d2c8",
+      "name": "Raphæl",
+      "state": "active",
+      "groupId": "C334b2c6d0dfe07d9066651b090fbfae5",
+      "role": {
+        "name": "werewolf",
+        "description": "🐺 Kamu adalah penjahat yang menyamar diantara werewolf. Bunuh semua warga supaya kamu menang",
+        "team": "werewolf"
+      },
+      "status": "alive",
+      "voting": "done",
+      "skill": "used",
+      "message": "🤵 Kamu didatangi Cultist!\n\n💡 Kamu menyerang r.alya\n\n",
+      "attacked": false,
+      "healed": false,
+      "targetIndex": 4,
+      "targetVoteName": "Eriec Tan",
+      "afkCounter": 0,
+      "visitors": [],
+      "blocked": false,
+      "culted": false
+    },
+    {
+      "id": "U8388d2233d45981e6423a8e7d320bcad",
+      "name": "Liya",
+      "state": "active",
+      "groupId": "C334b2c6d0dfe07d9066651b090fbfae5",
+      "role": {
+        "name": "werewolf-cub",
+        "description": "🐕 Kamu dipihak werewolf, dan baru bisa menjadi werewolf jika werewolf lainnya mati",
+        "team": "werewolf"
+      },
+      "status": "alive",
+      "voting": "done",
+      "skill": "pending",
+      "message": "",
+      "attacked": false,
+      "healed": false,
+      "targetIndex": -1,
+      "targetVoteName": "Eriec Tan",
+      "afkCounter": 0,
+      "visitors": [],
+      "blocked": false,
+      "culted": false
+    },
+    {
+      "id": "U37f5285a1daba1800b062d5843bdd8da",
+      "name": "yani",
+      "state": "active",
+      "groupId": "C334b2c6d0dfe07d9066651b090fbfae5",
+      "role": {
+        "name": "anti-cult",
+        "description": "🚬 Kamu adalah warga yang membantu warga membasmi Cultist. Jika kamu didatangi Cultist, kamu akan membunuhnya",
+        "team": "villager"
+      },
+      "status": "alive",
+      "voting": "done",
+      "skill": "used",
+      "message": "🤵 r.alya adalah seorang Cultist!\n\n",
+      "attacked": false,
+      "healed": false,
+      "targetIndex": "4",
+      "targetVoteName": "Eriec Tan",
+      "afkCounter": 0,
+      "visitors": [],
+      "blocked": false,
+      "culted": false
+    },
+    {
+      "id": "U80bf891e44078881f04f5cbc1831fe51",
+      "name": "r.alya",
+      "state": "active",
+      "groupId": "C334b2c6d0dfe07d9066651b090fbfae5",
+      "role": {
+        "name": "cultist",
+        "description": "🤵 Kamu bukan dipihak warga atau werewolf, misi kamu gantung werewolf dan membuat semua warga menjadi cultist",
+        "team": "cultist"
+      },
+      "status": "death",
+      "voting": "pending",
+      "skill": "used",
+      "message": "👣 Kamu ke rumah Raphæl\n\nTarget kamu ternyata Werewolf!\n\n🚬 Kamu diserang anti-cult!\n\n🐺 Kamu diserang werewolf!\n\n",
+      "attacked": true,
+      "healed": false,
+      "targetIndex": "1",
+      "targetVoteName": "-",
+      "afkCounter": 0,
+      "visitors": [],
+      "blocked": false,
+      "culted": false
+    },
+    {
+      "id": "U83caf7c21caa4cb90f5c616e0ef85e3a",
+      "name": "Eriec Tan",
+      "state": "active",
+      "groupId": "C334b2c6d0dfe07d9066651b090fbfae5",
+      "role": {
+        "name": "villager",
+        "description": "🧑‍🌾 Kamu adalah warga (luar)biasa, tugasmu itu cari tau siapa werewolf, dan gantungkan werewolfnya",
+        "team": "villager"
+      },
+      "status": "death",
+      "voting": "done",
+      "skill": "pending",
+      "message": "",
+      "attacked": false,
+      "healed": false,
+      "targetIndex": -1,
+      "targetVoteName": "Raphæl",
+      "afkCounter": 0,
+      "visitors": [],
+      "blocked": false,
+      "culted": false
+    }
+  ],
+  "stats": {
+    "gamePlayed": 3
+  },
+  "status": "active",
+  "nightCounter": 1,
+  "roles": [
+    "anti-cult",
+    "werewolf",
+    "cultist",
+    "werewolf-cub",
+    "seer"
+  ],
+  "cultistCandidates": [
+    1
+  ],
+  "lynchCandidate": [
+    5,
+    5,
+    1,
+    1,
+    5
+  ]
+}
