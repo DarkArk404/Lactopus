@@ -1,6 +1,6 @@
 {
   "name": "Lactopus-Assistant",
-  "version": "0.7.4",
+  "version": "0.8.2",
   "description": "Bot Lactopus untuk Line Messenger",
   "main": "server.js",
   "scripts": {
