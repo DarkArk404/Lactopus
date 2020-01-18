@@ -1,11 +1,11 @@
-# werewolf
+# Lactopus-Assistant
 
 <p style="text-align: center;">
   <img alt="last commit" src="https://img.shields.io/github/last-commit/DarkArk404/Lactopus.svg?style=for-the-badge" />
   <img alt="version" src="https://img.shields.io/badge/dynamic/json?color=blue&label=version&style=for-the-badge&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2FDarkArk404%2FLactopus%2Fmaster%2Fpackage.json" />
   
-  <a href="  https://github.com/EriecTanijaya/werewolf/blob/master/LICENSE" title="license">
-    <img alt="license" src="https://img.shields.io/github/license/EriecTanijaya/werewolf?style=for-the-badge" />
+  <a href="  https://github.com/DarkArk404/Lactopus/blob/master/LICENSE" title="license">
+    <img alt="license" src="https://img.shields.io/github/license/DarkArk404/Lactopus?style=for-the-badge" />
   </a>
 </p>
 
@@ -26,8 +26,14 @@ $ npm install @line/bot-sdk
 
 See LINE official sdk [documentation](https://line.github.io/line-bot-sdk-nodejs/).
 
-## How To Use
+## How To Push
 
-Make the .env according to .env.example
+type this in cmd:
 
-* fill channel access token and channel secret according to line developer page
+``` bash
+git init
+git add .
+git commit -m "First commit"
+git remote add origin https://github.com/DarkArk404/Lactopus.git
+git push -u origin master
+```
